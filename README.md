@@ -1,4 +1,3 @@
-# dot-files
 # *Showcase*
 ![enter image description here](https://imgur.com/2KoTRmN.png)
 
