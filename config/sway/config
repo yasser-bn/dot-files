@@ -50,11 +50,9 @@ output * bg /home/yxr/wallpapers/default.jpg fill
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
 exec swayidle -w \
-    timeout 300 'swaylock -f -c 000000' \
-    timeout 600 'swaymsg "output * dpms off"' \
-    resume 'swaymsg "output * dpms on"' \
-    before-sleep 'swaylock -f -c 000000'
-
+  timeout 300 'swaylock' \
+  before-sleep 'swaylock'
+  
 ### Input configuration
 #
 # Example configuration:
@@ -94,6 +92,22 @@ exec swayidle -w \
 
     # Reload the configuration file
     bindsym $mod+Shift+c reload
+
+    # Lock screen
+    bindsym $mod+c exec swaylock -f \
+  	--clock \
+  	--indicator \
+  	--screenshots \
+  	--indicator-radius 100 \
+  	--effect-blur 7x5 \
+	--effect-greyscale \
+	--ring-color 00000000 \
+  	--key-hl-color 880033 \
+  	--line-color 00000000 \
+  	--inside-color 00000000 \
+  	--separator-color 00000000 \
+  	--grace 5 \
+  	--show-failed-attempts
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
