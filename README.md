@@ -1,8 +1,7 @@
 # dot-files
 ### Hi There, If you're already here, might as well give this a Read!
-This is my second rice that arose because my i3 setup was very power hungry, I had just riced it 9 days back and yet here I am again writing this readme, (god save me). Anyways, this took 3 days to setup,as I had no previous experience of Wayland before, but it was worth it! I have seen an improvement of 2 hours. I hope you'll like this, don't forget to star 🌟 , now...
+This is my first rice it tooks me 3 days to setup,as I had no previous experience before, but it was worth it! I have seen an improvement of 2 hours. I hope you'll like this, don't forget to star 🌟 , now...
 
-> and as a great man once told me, nobody likes a wordsmith.
 Let's get to the record!
 ~ *Adam First, Wave 103*
 # *Setup:*
