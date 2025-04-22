@@ -1,6 +1,6 @@
 # dot-files
 # *Showcase*
-![enter image description here](https://imgur.com/a/OpTP86h)
+![enter image description here]([https://imgur.com/a/OpTP86h](https://imgur.com/2KoTRmN))
 
 ### Hi There, If you're already here, might as well give this a Read!
 This is my first rice it tooks me 3 days to setup,as I had no previous experience before, but it was worth it! I have seen an improvement of 2 hours. I hope you'll like this, don't forget to star 🌟 , now...
