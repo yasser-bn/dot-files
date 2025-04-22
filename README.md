@@ -11,7 +11,7 @@ This is my first rice it tooks me 3 days to setup,as I had no previous experienc
 
 ## *How I did it?:*
  
- - Sway: Check the end of configs, I did a lot of stuff, specially with borders.
+ - Sway: Check the configs.
  - Kvantum Theme: KvArcDark  (to setup, use qt5ct and some variables in my .zshrc)
  - Icon Theme: WhiteSur (i made some edits)
  - Cursor Theme: default one
